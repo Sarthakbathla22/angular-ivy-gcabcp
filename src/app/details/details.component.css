@@ -1,0 +1,23 @@
+.box{
+  text-align: center;
+display: block;
+margin: auto;
+}
+.box .image{
+margin-top: 40px;
+max-width: fit-content;
+width: 100%;
+}
+.container{
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+background-color:linear-gradient(180deg, #D32F2F 0%, rgba(221, 113, 113, 0.77) 100%);
+}
+
+.container .items{
+text-align: center;
+background-color:linear-gradient(180deg, #D32F2F 0%, rgba(221, 113, 113, 0.77) 100%);
+margin: 10px;
+padding: 10px;
+}

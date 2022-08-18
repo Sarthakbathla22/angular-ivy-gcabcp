@@ -1,0 +1,42 @@
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  background-color:linear-gradient(180deg, #D32F2F 0%, rgba(221, 113, 113, 0.77) 100%);
+  
+}
+
+.card {
+  width: 260px;
+  margin: 10px;
+  box-shadow: 0px 4px 4px rgba(247, 7, 7, 0.534);
+}
+
+.card-title {
+  display: block;
+  text-align: center;
+  color: rgb(134, 9, 9);
+  background-color:linear-gradient(180deg, #D32F2F 0%, rgba(221, 113, 113, 0.77) 100%);
+  padding: 2%;
+  border-top-right-radius: 4px;
+  border-top-left-radius: 4px;
+}
+
+.card img {
+  cursor: pointer;
+  width: 100%;
+  height: fit-content;
+  object-fit: cover;
+  display: block;
+  position: relative;
+}
+
+.card-desc {
+  text-align: center;
+  background: linear-gradient(180deg, #D32F2F 0%, rgba(221, 113, 113, 0.77) 100%);
+  display: block;
+  font-size: 1.2rem;
+  position: relative;
+  opacity: 1;
+  padding: 20px;
+}
+
